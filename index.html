@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediction App</title>
+
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="title">Prediction app based on the first name</h1>
+
+    <main>
+
+      <div class="img-container">
+        <img src="./asset/man.jpg" alt="man" id="male-img">
+        <img src="./asset/woman.jpg" alt="woman" id="female-img">
+      </div>
+      <div class="container">
+        <label for="">Input your first name</label>
+        <input id="inputname" type="text" placeholder="enter your name" onkeydown="predict(event)" />
+
+        <div id="predictionresult"></div>
+      </div>
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="main.js"></script>
+  </body>
+</html>
