@@ -1,4 +1,4 @@
-const urlApi = "https:/api.genderize.io";
+const urlApi = "https://api.genderize.io";
 
 const inputElement = document.getElementById("inputname");
 
