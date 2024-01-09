@@ -41,6 +41,7 @@ async function predict(event) {
       return;
     }
     const queryUrl = `${urlApi}/?name=${firstName}&country_id=DE`;
+    console.log(queryUrl);
     const response = await fetch(queryUrl);
 
     // console.log(result);
